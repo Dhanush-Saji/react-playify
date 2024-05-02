@@ -1,7 +1,7 @@
 {
-  "name": "npm-musicplayer",
+  "name": "react-media-playback",
   "version": "1.0.0",
-  "type":"module",
+  "type": "module",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
