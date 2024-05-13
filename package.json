@@ -1,9 +1,10 @@
 {
   "name": "react-media-playback",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
-  "main": "index.ts",
   "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx rollup -c"
   },
@@ -25,6 +26,8 @@
     "tslib": "^2.6.2"
   },
   "dependencies": {
-    "@rollup/plugin-node-resolve": "^15.2.3"
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup-plugin-import-css": "^3.5.0",
+    "rollup-plugin-postcss": "^4.0.2"
   }
 }
