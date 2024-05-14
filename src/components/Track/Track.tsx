@@ -1,4 +1,3 @@
-import * as React from 'react'
 import { IoClose, IoMusicalNotes } from 'react-icons/io5';
 import { TrackTypes } from '../../utils/types';
 

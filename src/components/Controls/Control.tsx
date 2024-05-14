@@ -1,4 +1,3 @@
-import * as React from 'react'
 import { BsFillPauseFill, BsFillPlayFill } from 'react-icons/bs'
 import { MdSkipNext, MdSkipPrevious } from 'react-icons/md'
 import { ControlTypes } from '../../utils/types'

@@ -23,9 +23,9 @@ export type PlayerTypes = {
 
 export type TrackTypes = {
   isPlaying: boolean;
-  image: string;
-  title: string;
-  subtitle: string;
+  image: string | undefined;
+  title: string | undefined;
+  subtitle: string | undefined;
 };
 export type SeekerTypes = {
   appTime: number;

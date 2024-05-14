@@ -30,7 +30,7 @@ const Player = ({theme='whiteTheme',isPlaying,setisPlaying,audio=[]}:PlayerTypes
   React.useEffect(()=>{
     if (ref.current) {
       if (isPlaying) {
-        ref.current.src = audio[index].audio;
+        ref.current.src = audio[index]?.audio;
         ref.current.play();
         setopenPlayer('up')
       } else {
@@ -62,7 +62,7 @@ const Player = ({theme='whiteTheme',isPlaying,setisPlaying,audio=[]}:PlayerTypes
   return (
     <div style={{display:'flex',flexDirection:'column'}} className={`music-player ${openPlayer == 'up'?'bottomToTopAnimation':openPlayer == 'down'?'toptoBottomAnimation':''} ${customTheme}`}>
     <div style={{display:'flex',gap:'0.5rem',flexDirection:'row',position:'relative',width:'100%',alignItems:'center',margin:'auto'}}>
-        {audio?.length>0 && <Track title={audio[index].title} subtitle={audio[index].subtitle} isPlaying={isPlaying} image={audio[index].image} />}
+        {audio?.length>0 && <Track title={audio[index]?.title} subtitle={audio[index]?.subtitle} isPlaying={isPlaying} image={audio[index]?.image} />}
         <div style={{alignItems:'center',display:'flex',flexDirection:'column',justifyContent:'center',margin:'auto',gap:'0.5rem'}}>
           {audio?.length>0 ?<>
           <Control goToPrevSong={goToPrevSong} goToNextSong={goToNextSong} arrayLength={audio.length} index={index} play={isPlaying} setisPlaying={setisPlaying} />
