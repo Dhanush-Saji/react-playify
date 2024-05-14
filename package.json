@@ -1,17 +1,16 @@
 {
-  "name": "@dhanushsaji/react-media-player",
-  "version": "1.0.3",
+  "name": "react-media-playback",
+  "version": "1.0.18",
   "description": "A custom media player",
-  "main": "dist/cjs/index.js",
-  "module":"dist/esm/index.js",
-  "types":"dist/index.d.ts",
-  "files": ["dist"],
-  "publishConfig": {
-    "@Dhanush-Saji:registry": "https://npm.pkg.github.com"
-  },
+  "main": "/dist/index.js",
+  "types": "/dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "dev":"rollup -c --watch",
-    "build": "rollup -c"
+    "dev": "rollup -c --watch",
+    "build": "npx rollup -c"
   },
   "keywords": [
     "react"
@@ -19,6 +18,7 @@
   "author": "Dhanush Saji",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.6",

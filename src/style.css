@@ -6,7 +6,7 @@ input[type="range"]{
 }
 .music-player {
     z-index: 9999;
-    position: absolute;
+    position: fixed;
     height: 6rem;
     bottom: -20%;
     left: 0;
@@ -41,6 +41,9 @@ input[type="range"]{
   .glassTheme .volumeControlDiv{
     color: white;
   }
+  .glassTheme .nextPrevBtn{
+    color: white;
+  }
   .whiteTheme{
     background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgb(236, 236, 236)100%);
     color: var(--black-color);
@@ -59,6 +62,9 @@ input[type="range"]{
   .whiteTheme .volumeControlDiv{
     color: var(--black-color);
   }
+  .whiteTheme .nextPrevBtn{
+    color: var(--black-color);
+  }
   .blackTheme{
     background: linear-gradient(0deg, var(--black-color) 0%, #313131 100%);
     color: white;
@@ -73,6 +79,9 @@ input[type="range"]{
   .blackTheme .cover-div{
     background-color: rgba(255,255,255,0.1);
     border: 1px solid white;
+  }
+  .blackTheme .nextPrevBtn{
+    color: white;
   }
   .blueTheme{
     background-color: #E1FDFE;
@@ -89,6 +98,9 @@ input[type="range"]{
     background-color: rgba(255,255,255,1);
     border: 1px solid #3fa9ff;
   }
+  .blueTheme .nextPrevBtn{
+    color: #3fa9ff;
+  }
   .purpleTheme{
     background: linear-gradient(0deg, #120519 0%, #120519 100%);
     color: white;
@@ -103,6 +115,9 @@ input[type="range"]{
   .purpleTheme .cover-div{
     background-color: rgba(255,255,255,0.1);
     border: 1px solid white;
+  }
+  .purpleTheme .nextPrevBtn{
+    color: white;
   }
   
   .bottomToTopAnimation{

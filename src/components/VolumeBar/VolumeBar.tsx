@@ -1,3 +1,4 @@
+import * as React from 'react'
 import { BsFillVolumeMuteFill, BsFillVolumeUpFill } from 'react-icons/bs'
 import { VolumeBarTypes } from '../../utils/types'
 

@@ -1,3 +1,4 @@
+import * as React from 'react'
 import { SeekerTypes } from '../../utils/types';
 
 const Seeker = ({setseeker,duration,appTime}:SeekerTypes) => {
