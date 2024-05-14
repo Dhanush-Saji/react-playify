@@ -7,7 +7,7 @@
   "types":"dist/index.d.ts",
   "files": ["dist"],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Dhanush-Saji"
+    "@Dhanush-Saji:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "dev":"rollup -c --watch",
