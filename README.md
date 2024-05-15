@@ -3,10 +3,10 @@
 </p>
 <div align="center">
 
-[![npm downloads](https://img.shields.io/npm/dm/react-media-playback.svg?style=for-the-badge)](https://www.npmjs.com/package/react-media-playback)
-[![npm](https://img.shields.io/npm/l/react-media-playback?style=for-the-badge)](https://github.com/Dhanush-Saji/react-media-playback/blob/master/LICENSE)
-[![npm downloads](https://img.shields.io/bundlephobia/minzip/react-media-playback?style=for-the-badge)](https://www.npmjs.com/package/react-media-playback)
-[![npm downloads](https://img.shields.io/github/contributors/Dhanush-Saji/react-media-playback?style=for-the-badge)](https://www.npmjs.com/package/react-media-playback)
+[![npm downloads](https://img.shields.io/npm/dm/react-playify.svg?style=for-the-badge)](https://www.npmjs.com/package/react-playify)
+[![npm](https://img.shields.io/npm/l/react-playify?style=for-the-badge)](https://github.com/Dhanush-Saji/react-playify/blob/master/LICENSE)
+[![npm downloads](https://img.shields.io/bundlephobia/minzip/react-playify?style=for-the-badge)](https://www.npmjs.com/package/react-playify)
+[![npm downloads](https://img.shields.io/github/contributors/Dhanush-Saji/react-playify?style=for-the-badge)](https://www.npmjs.com/package/react-playify)
 
 </div>
 
@@ -22,7 +22,7 @@ You can reach me **dhanushsaji1@gmail.com**
 ## Install
 
 ```javascript
-npm i react-media-playback
+npm i react-playify
 ```
 
 ## Quick Start
@@ -44,7 +44,7 @@ Also, avoid setting the value to true initially. This is because the `audio` ele
 
 ```jsx harmony
 import { useState } from 'react'
-import {Player} from 'react-media-playback'
+import {Player} from 'react-playify'
 
 function App() {
   const [isPlaying, setisPlaying] = useState(false)

@@ -1,6 +1,6 @@
 {
-  "name": "react-media-playback",
-  "version": "1.0.18",
+  "name": "react-playify",
+  "version": "1.0.0",
   "description": "A custom media player",
   "main": "/dist/index.js",
   "types": "/dist/index.d.ts",
@@ -13,7 +13,7 @@
     "build": "npx rollup -c"
   },
   "keywords": [
-    "react"
+    "react","media player","media"
   ],
   "author": "Dhanush Saji",
   "license": "MIT",

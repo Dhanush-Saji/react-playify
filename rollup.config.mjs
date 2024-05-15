@@ -9,7 +9,7 @@ export default [
     output: {
       dir:'dist',
       format:'es',
-      name:'react-media-playback'
+      name:'react-playify'
     },
     external: [/\.css$/,"react","react-dom"],
     plugins: [
