@@ -1,6 +1,6 @@
 {
-  "name": "react-playify",
-  "version": "1.0.3",
+  "name": "@dhanush-saji/react-playify",
+  "version": "1.0.0",
   "description": "A custom media player",
   "main": "/dist/index.js",
   "types": "/dist/index.d.ts",
