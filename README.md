@@ -41,7 +41,7 @@ Also, avoid setting the value to true initially. This is because the `audio` ele
   const [isPlaying, setIsPlaying] = useState(false)
 
 ```
-
+When we change the value of `isPlaying` from false to true, then the music player will popup
 ```jsx harmony
 import { useState } from 'react'
 import {Player} from 'react-playify'
@@ -64,12 +64,12 @@ export default App
 
 ## Configuration
 
-Below is all the available options you can pass to the component. Options without defaults are required. **We will add more customization soon.!🚀🚀🚀**
+Below are all the available options you can pass to the component. Options without defaults are required. **We will add more customization soon.!🚀🚀🚀**
 
 | Name | Type           | Default | Description                                                                                                                                                       |
 | ---- |----------------| ------- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| theme | string       | null | By default it will be `white` theme. Other themes are `glass`, ![#141414](https://via.placeholder.com/10/141414?text=+) `black`, ![#3fa9ff](https://via.placeholder.com/10/3fa9ff?text=+) `blue`, ![#862BD0](https://via.placeholder.com/10/862BD0?text=+) `purple` |
-| audio | array          | null | Simply pass an array of object like this `[{title:'',subtitle:'',audio:'',image:''}]` . Apart from `audio` key you can pass value for other keys |
+| theme | string       | null | By default, it will be a `white` theme. Other themes are `glass`, ![#141414](https://via.placeholder.com/10/141414?text=+) `black`, ![#3fa9ff](https://via.placeholder.com/10/3fa9ff?text=+) `blue`, ![#862BD0](https://via.placeholder.com/10/862BD0?text=+) `purple` |
+| audio | array          | null | Simply pass an array of object like this `[{title:'',subtitle:'',audio:'',image:''}]` . Apart from the `audio` key you can pass value for other keys |
 | isPlaying | boolean        | false | This is a Boolean value. Pass the first parameter of `useState`.|
 | setisPlaying | function        | null | This function changes the Boolean value of isPlaying. Pass the second parameter of `useState` |
 
