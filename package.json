@@ -1,6 +1,6 @@
 {
   "name": "react-playify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A custom media player",
   "main": "/dist/index.js",
   "types": "/dist/index.d.ts",
@@ -18,7 +18,7 @@
   "author": "Dhanush Saji",
   "license": "MIT",
   "publishConfig": {
-    "@Dhanush-Saji:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
