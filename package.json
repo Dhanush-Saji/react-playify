@@ -17,6 +17,9 @@
   ],
   "author": "Dhanush Saji",
   "license": "MIT",
+  "publishConfig": {
+    "@Dhanush-Saji:registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Dhanush-Saji/react-playify"
