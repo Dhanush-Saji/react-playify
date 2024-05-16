@@ -1,6 +1,6 @@
 {
   "name": "@dhanush-saji/react-playify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom media player",
   "main": "/dist/index.js",
   "types": "/dist/index.d.ts",
@@ -9,11 +9,14 @@
     "dist"
   ],
   "scripts": {
-    "dev": "rollup -c --watch",
-    "build": "npx rollup -c"
+    "release": "standard-version && git push --follow-tags && npm publish"
   },
   "keywords": [
-    "react","media player","media","audio","music"
+    "react",
+    "media player",
+    "media",
+    "audio",
+    "music"
   ],
   "author": "Dhanush Saji",
   "license": "MIT",
@@ -36,6 +39,7 @@
     "rollup": "^4.17.2",
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-postcss": "^4.0.2",
+    "standard-version": "^9.5.0",
     "tslib": "^2.6.2"
   }
 }
